@@ -1,0 +1,56 @@
+.look-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.look-container .look-card {
+  display: block;
+  width: 234px;
+  margin-right: 5px;
+  position: relative;
+}
+.look-container .look-card .look-card__img {
+  width: 100%;
+  height: auto;
+}
+.look-container .look-card .look-card-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+.look-container .look-card .look-card-footer .look-card-footer__header {
+  font-size: 18px;
+  font-weight: 400;
+  color: #060606;
+  margin-bottom: 10px;
+}
+.look-container .look-card .look-card-footer .look-card-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.look-container .look-card .look-card-footer .look-card-flex .product-discount {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  text-decoration: none;
+  width: 28%;
+  padding: 5px 8px;
+  margin-right: 30px;
+}
+.look-container .look-card .look-card-footer .look-card-flex .product-discount .product-discount__icon {
+  width: 30%;
+  height: auto;
+  margin-right: 6px;
+}
+.look-container .look-card .look-card-footer .look-card-flex .product-discount .product-discount__number {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+.look-container .look-card .look-card-footer .look-card-flex .look-card-flex__price {
+  font-size: 18px;
+  font-weight: 700;
+}
