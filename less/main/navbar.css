@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.navbar .navbar-nav {
+  list-style: none;
+  display: flex;
+  width: 100%;
+}
+.navbar .navbar-nav .nav-item {
+  flex-grow: 1;
+}
+.navbar .navbar-nav .nav-item .nav-item__link {
+  font-size: 600;
+  line-height: 34px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: ;
+}
