@@ -17,8 +17,14 @@
   cursor: pointer;
 }
 .brand-slider .brand-card .brand-card__img:hover {
-  border: 1px solid red;
-  transition: 500ms;
+  width: 64px;
+  height: 64px;
+  border: transparent;
+  border-radius: 50px;
+  background-image: linear-gradient(white, white), /*here must be*/ linear-gradient(to right, #e23c3c, #7507db);
+  /*both gradients*/
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 .brand-slider .brand-card .brand-card__text {
   margin-top: 10px;

@@ -16,7 +16,7 @@
 }
 .recommended-container .recommended-card .recommended-card__header {
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 300;
   margin-bottom: 10px;
 }
@@ -27,11 +27,11 @@
 }
 .recommended-container .recommended-card .recommended-card-footer .recommended-card-footer__text--bold {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
 }
 .recommended-container .recommended-card .recommended-card-footer .recommended-card-footer__text--line-through {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: line-through;
   color: #A0A0A0;
 }
@@ -40,16 +40,16 @@
   align-items: center;
   background-color: #000;
   text-decoration: none;
-  width: 26%;
-  padding: 5px 8px;
+  width: 30%;
+  padding: 5px 10px;
 }
 .recommended-container .recommended-card .recommended-card-footer .product-discount .product-discount__icon {
-  width: 30%;
+  width: 22%;
   height: auto;
-  margin-right: 10px;
+  margin-right: 7px;
 }
 .recommended-container .recommended-card .recommended-card-footer .product-discount .product-discount__number {
   color: #fff;
-  font-size: 14px;
+  font-size: 8px;
   font-weight: 700;
 }
