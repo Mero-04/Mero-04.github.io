@@ -27,11 +27,11 @@
 }
 .recommended-container .recommended-card .recommended-card-footer .recommended-card-footer__text--bold {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
 }
 .recommended-container .recommended-card .recommended-card-footer .recommended-card-footer__text--line-through {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
   text-decoration: line-through;
   color: #A0A0A0;
 }
