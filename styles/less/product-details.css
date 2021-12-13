@@ -1,0 +1,167 @@
+.detail-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 25px 0px;
+}
+.detail-container .left-container {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+.detail-container .left-container .product-slide {
+  width: 100px;
+}
+.detail-container .left-container .product-slide .product-slide__img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.detail-container .left-container .product-slide .product-single-slide__img {
+  width: 100%;
+  height: auto;
+}
+.detail-container .right-container {
+  width: 500px;
+}
+.detail-container .right-container .right-container__text {
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.detail-container .right-container .right-container__text span {
+  font-weight: 400;
+}
+.detail-container .right-container .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px;
+}
+.detail-container .right-container .d-flex .text-muted {
+  color: #787878;
+  margin: 10px 0px ;
+}
+.detail-container .right-container .d-flex .point {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+}
+.detail-container .right-container .d-flex .point .point__stars {
+  width: 60px;
+  height: auto;
+}
+.detail-container .right-container .d-flex .point .point__star-percent {
+  font-size: 14px;
+  font-weight: 700;
+  color: #EEA734;
+  padding: 0 5px;
+}
+.detail-container .right-container .d-flex .point .point__star-number {
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+.detail-container .right-container .right-container-icon {
+  font-weight: 700;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.detail-container .right-container .right-container-icon img {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 40px;
+  padding: 15px 8px;
+  margin-left: 20px;
+}
+.detail-container .right-container .right-container-price {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.detail-container .right-container .right-container-color {
+  font-weight: 700;
+  margin-top: 20px;
+}
+.detail-container .right-container .right-container-color span {
+  font-weight: 500;
+}
+.detail-container .right-container .right-container-images {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+}
+.detail-container .right-container .right-container-images .right-container-images--first {
+  width: 110px;
+  margin-right: 20px;
+  border: 3px solid black;
+}
+.detail-container .right-container .right-container-images img {
+  width: 110px;
+  margin-right: 20px;
+}
+.detail-container .right-container .right-container-size {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.detail-container .right-container .right-container-size div {
+  text-align: center;
+  border: 1px solid #ccc;
+  min-width: 30px;
+  max-width: 60px;
+  padding: 5px 10px;
+  margin-right: 15px;
+  color: #7D7D7D;
+  cursor: pointer;
+}
+.detail-container .right-container .right-container-size .right-container-size--active {
+  color: #000;
+  border: 1px solid #000;
+}
+.detail-container .right-container .right-container-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.detail-container .right-container .right-container-add .right-container-addbag {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 30px 120px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.detail-container .right-container .right-container-add .right-container-favorite {
+  border: 2px solid black;
+}
+.detail-container .right-container .right-container-add .right-container-favorite img {
+  width: 50px;
+  height: auto;
+  margin: 20px;
+}
+.detail-container .right-container .right-container-message {
+  display: inline-block;
+  margin-top: 20px;
+  border: 2px solid #d1d1d1;
+  padding: 0px 50px;
+  background-color: #d1d1d1;
+}
+.detail-container .right-container .right-container-message .message-section {
+  margin: 10px 0px;
+}
+.detail-container .right-container .right-container-message .message-section .message-section-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+.detail-container .right-container .right-container-message .message-section .message-section-footer {
+  font-size: 2px;
+}
+.detail-container .right-container .right-container-description {
+  margin-top: 20px;
+  font-weight: 700;
+}
