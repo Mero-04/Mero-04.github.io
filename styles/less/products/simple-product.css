@@ -28,6 +28,9 @@
   padding: 5px 20px;
   color: #fff;
 }
+.simple-product .simple-card .simple-card__header {
+  font-size: 14px;
+}
 .simple-product .simple-card .simple-card__price {
   font-size: 24px;
   font-weight: 700;

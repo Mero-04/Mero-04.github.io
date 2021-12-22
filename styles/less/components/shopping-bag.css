@@ -1,0 +1,74 @@
+.basket-container {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  height: auto;
+  width: 423px;
+  right: 0;
+  border-radius: 0 0 6px 6px;
+  z-index: 1;
+}
+.basket-container .basket-container-center {
+  padding: 25px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.basket-container .basket-container-center .basket-container-row {
+  display: flex;
+  justify-content: space-between;
+}
+.basket-container .basket-container-center .basket-container-row img {
+  width: 100px;
+  height: 140px;
+  margin: 0px 10px;
+}
+.basket-container .basket-container-center .basket-container-row .basket-right-container {
+  display: block;
+}
+.basket-container .basket-container-center .basket-container-row .basket-right-container .basket-right-container__text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 15px;
+}
+.basket-container .basket-container-center .basket-container-row .basket-right-container .basket-right-container__text--muted {
+  color: #808080;
+}
+.basket-container .basket-container-center .basket-container-row .basket-right-container .basket-right-container__price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 15px;
+}
+.basket-container .basket-container-center .basket-container-row .basket-right-container .basket-right-container__icon {
+  width: 20px;
+  height: 20px;
+}
+.basket-container .basket-container-center .basket-container-footer {
+  display: block;
+  width: 100%;
+  border-top: 1px solid #F0F0F0;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.basket-container .basket-container-center .basket-container-footer .basket-container-footer__text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  text-align: right;
+}
+.basket-container .basket-container-center .basket-container-footer .basket-container-footer__text span {
+  color: red;
+  font-weight: 700;
+}
+.basket-container .basket-container-center .basket-container-footer .basket-container-footer__view-bag {
+  background-color: #000;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px;
+  margin-top: 10px;
+  color: #fff;
+}

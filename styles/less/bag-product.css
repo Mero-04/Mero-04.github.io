@@ -1,0 +1,121 @@
+.bag-product-container {
+  display: flex;
+}
+.bag-product-container .bag-product-left {
+  width: 80%;
+}
+.bag-product-container .bag-product-left .shopping-free-container {
+  display: block;
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.bag-product-container .bag-product-left .shopping-free-container .shopping-free-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+.bag-product-container .bag-product-left .shopping-free-container .shopping-free-card .shopping-free-card__img {
+  width: 100px;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-header .bag-product-header__img {
+  width: 30px;
+  height: 30px;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-header .bag-product-header__text {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #eee;
+  margin-bottom: 5px;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-card .bag-product-card-left {
+  width: 20%;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-card .bag-product-card-left .bag-product-card-left__img {
+  width: 150px;
+  height: 150px;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-card .bag-product-card-right {
+  width: 80%;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-card .bag-product-card-right .bag-product-card-right__text {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-card .bag-product-card-right .product-old-price {
+  display: flex;
+  justify-content: end;
+  text-decoration: line-through;
+  color: #808080;
+  font-size: 14px;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-card .bag-product-card-right .bag-product-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-card .bag-product-card-right .bag-product-flex .bag-product-flex__text--span span {
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #000;
+  margin-left: 10px;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-card .bag-product-card-right .bag-product-flex .bag-product-flex__text--muted {
+  color: #808080;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-card .bag-product-card-right .bag-product-flex .bag-product-flex__text--bold {
+  font-weight: 700;
+}
+.bag-product-container .bag-product-left .shopping-free-container .bag-product-card .bag-product-card-right .bag-product-flex .bag-product-flex__img {
+  width: 30px;
+  height: 30px;
+}
+.bag-product-container .bag-product-right {
+  width: 20%;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.bag-product-container .bag-product-right .bag-product-right-container {
+  display: block;
+  width: 100%;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.bag-product-container .bag-product-right .bag-product-right-container .bag-product-right-container__text {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 15px 0px;
+}
+.bag-product-container .bag-product-right .bag-product-right-container .bag-product-right-container__text--bold {
+  font-weight: 700;
+}
+.bag-product-container .bag-product-right .bag-product-right-container .bag-product-right-container__btn {
+  background: #000;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 30px;
+}
