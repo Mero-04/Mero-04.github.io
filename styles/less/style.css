@@ -1444,6 +1444,48 @@
   align-items: center;
   padding: 30px 50px;
 }
+.basket-product-container .basket-product-left .basket-product-left-container .basket-product-row .basket-product-card .form-label {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  user-select: none;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .basket-product-row .basket-product-card .form-label .form-label__input {
+  opacity: 0;
+  cursor: pointer;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .basket-product-row .basket-product-card .form-label .form-label__input:checked ~ .form-label__checkmark-radio {
+  background-color: #4A4A4A;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .basket-product-row .basket-product-card .form-label .form-label__input:checked ~ .form-label__checkmark-radio:after {
+  display: block;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .basket-product-row .basket-product-card .form-label .form-label__checkmark-radio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .basket-product-row .basket-product-card .form-label .form-label__checkmark-radio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .basket-product-row .basket-product-card .form-label .form-label__checkmark-radio:after {
+  top: 5px;
+  left: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: white;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .basket-product-row .basket-product-card .form-label:hover input ~ .form-label__checkmark-radio {
+  background-color: #ccc;
+}
 .basket-product-container .basket-product-left .basket-product-left-container .basket-product-row .basket-product-card:first-child {
   margin-right: 10px;
 }
@@ -1466,13 +1508,14 @@
   align-items: center;
   position: relative;
   margin-right: -1px;
-  border: 1px solid #4A4A4A;
+  border: 1px solid #000000;
   height: 60px;
   padding: 0 15px;
   margin-bottom: 25px;
 }
 .basket-product-container .basket-product-left .basket-product-left-container .form-flex .form-prepend span {
-  color: #B6B5B5;
+  color: #000000;
+  font-weight: 700;
   font-size: 14px;
 }
 .basket-product-container .basket-product-left .basket-product-left-container .form-flex .form-flex__input {
@@ -1490,6 +1533,50 @@
   display: block;
   justify-content: center;
   margin-bottom: 30px;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .form-block .form-label {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  user-select: none;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .form-block .form-label .form-label__input {
+  opacity: 0;
+  cursor: pointer;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .form-block .form-label .form-label__input:checked ~ .form-label__checkmark-checkbox {
+  background-color: #4A4A4A;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .form-block .form-label .form-label__input:checked ~ .form-label__checkmark-checkbox:after {
+  display: block;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .form-block .form-label .form-label__checkmark-checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .form-block .form-label .form-label__checkmark-checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.basket-product-container .basket-product-left .basket-product-left-container .form-block .form-label .form-label__checkmark-checkbox:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.basket-product-container .basket-product-left .basket-product-left-container .form-block .form-label:hover input ~ .form-label__checkmark-checkbox {
+  background-color: #ccc;
 }
 .basket-product-container .basket-product-left .basket-product-left-container .form-block .form-block__input {
   width: 100%;

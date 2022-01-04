@@ -762,11 +762,17 @@
                 <div class="basket-product-left-container">
                     <div class="basket-product-row">
                         <div class="basket-product-card">
-                            <input class="input-radio" type="radio" name="radio" id="radio1">
+                            <label class="form-label">
+                                <input type="radio" checked="checked" name="radio" class="form-label__input">
+                                <span class="form-label__checkmark-radio"></span>
+                            </label>
                             <img src="img/icons/kamaz.svg" class="basket-product-card__img" alt="">
                         </div>
                         <div class="basket-product-card">
-                            <input class="input-radio" type="radio" name="radio" id="radio2">
+                            <label class="form-label">
+                                <input type="radio" name="radio" class="form-label__input">
+                                <span class="form-label__checkmark-radio"></span>
+                            </label>
                             <img src="img/icons/shop.svg" class="basket-product-card__imgg" alt="">
                         </div>
                     </div>
@@ -792,8 +798,10 @@
                         <div class="form-block">
                             <input type="text" class="form-block__input" placeholder="*Adress">
                             <input type="text" class="form-block__input" placeholder="*Note">
-                            <input type="checkbox">
-                            <label for="checkbox">Get Approved</label>
+                            <label class="form-label">Get Approved
+                                <input type="checkbox" id="checkbox" class="form-label__input">
+                                <span class="form-label__checkmark-checkbox"></span>
+                            </label>
                         </div>
                     </form>
 
