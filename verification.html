@@ -760,29 +760,30 @@
         <div class="register-container">
             <div class="register-container-center">
                 <div class="register-container-center-form">
-                   <div class="register-container-center-form__header">
-                         Create your Trend account
+                   <div class="register-container-center-form__header--verify">
+                         Enter verification code
                    </div>
-                   <form action="#" class="register-form">
-                        <input type="text" placeholder="*First Name" class="register-form__input">    
-                        <input type="text" placeholder="*Last Name" class="register-form__input">
-                        <div class="form-flex">
-                            <div class="form-prepend">
-                                <span class="input-prepend__text">+993</span>
-                            </div>
-                            <input type="number" class="register-form__input" placeholder="*Phone">
-                        </div>
-                        <input type="text" placeholder="*Address" class="register-form__input">
-                        <input type="text" placeholder="*Note" class="register-form__input">
-                        <label class="form-label"> I have read and accept the Terms of Service and Privacy
-                            Policy
-                            <input type="checkbox" id="checkbox" class="form-label__input">
-                            <span class="form-label__checkmark-checkbox"></span>
-                        </label>
+                   <p class="register-container-center-form__text">
+                        If <span>+99361251661</span> is associated with an active account, we have sent you a verification code. Enter the code to continue.
+                   </p>
+                   <form action="#" class="verification-form">
+                        <input type="text" class="verification-form__sqr" min="1" max="4" value="4">
+                        <input type="text" class="verification-form__sqr" min="1" max="4" value="4">
+                        <input type="text" class="verification-form__sqr" min="1" max="4" value="4">
+                        <input type="text" class="verification-form__sqr" min="1" max="4" value="4">
+                        <input type="text" class="verification-form__sqr" min="1" max="4" value="4">
+                        <input type="text" class="verification-form__sqr" min="1" max="4" value="4">
                    </form>
+                   <div class="register-container-center-form__text--muted">Please enter a valid 6-digit verification code.</div>
                    <div class="d-flex justify-content-center">
-                    <a href="#" class="auth-submit-btn">    REGISTER </a>
-                 </div>
+                        <a href="#" class="auth-submit-btn"> SUBMIT CODE </a>
+                    </div>
+                    <div class="register-container-center-form-resend">
+                       <div class="cancel-resend">
+                            <div class="cancel-resend__text">Cancel</div>
+                            <div class="cancel-resend__text">Resend the code</div>
+                       </div>
+                    </div>
                 </div>
             </div>
             

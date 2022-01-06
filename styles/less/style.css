@@ -441,6 +441,7 @@
 }
 .justify-content-center {
   justify-content: center;
+  align-items: center;
 }
 .d-block {
   display: block !important;
@@ -481,6 +482,38 @@
   font-size: 12px;
   font-weight: 400;
   color: black;
+}
+.auth-submit-btn {
+  width: 400px;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 0px;
+  padding-left: 170px;
+  background-color: #222222;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 15px;
+}
+.input-prepend__pass {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: -1px;
+  border: 1px solid #4A4A4A;
+  height: 60px;
+  padding: 0 15px;
+  border-right: none;
+}
+.input-prepend__pass img {
+  width: 20px;
+  height: auto;
+}
+.w-400 {
+  width: 400px;
+}
+.text-center {
+  align-items: center!important;
 }
 .banner {
   display: flex;
@@ -1714,4 +1747,216 @@
   font-size: 12px;
   color: #fff;
   margin-top: 30px;
+}
+.register-container {
+  display: flex;
+  justify-content: center;
+}
+.register-container .register-container-center {
+  width: 70%;
+}
+.register-container .register-container-center .register-container-center-form {
+  border: 1px solid #eee;
+  background-color: #fff;
+  padding: 15px 50px;
+  margin-top: 20px;
+  height: 900px;
+}
+.register-container .register-container-center .register-container-center-form .register-container-center-form__header {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.register-container .register-container-center .register-container-center-form .register-container-center-form__header--verify {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.register-container .register-container-center .register-container-center-form .register-form-forgot--remember {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+.register-container .register-container-center .register-container-center-form .register-form-forgot--remember span {
+  text-decoration: underline;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.register-container .register-container-center .register-container-center-form .register-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 75px;
+}
+.register-container .register-container-center .register-container-center-form .register-form .register-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register-container .register-container-center .register-container-center-form .register-form .register-form-btn .register-form-btn__save {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 85px;
+  background-color: #222222;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 15px;
+}
+.register-container .register-container-center .register-container-center-form .register-form .register-form-forgot {
+  justify-content: end!important;
+  margin-left: 230px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.register-container .register-container-center .register-container-center-form .register-form .register-form__input {
+  width: 70%;
+  height: 60px;
+  margin-bottom: 25px;
+  padding: 25px 20px;
+  outline: none;
+  border: 1px solid #4A4A4A;
+}
+.register-container .register-container-center .register-container-center-form .register-form .register-form__input--pass {
+  width: 360px;
+  height: 60px;
+  margin-bottom: 25px;
+  padding: 25px 20px;
+  outline: none;
+  border: 1px solid #4A4A4A;
+  border-left: none;
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-flex .form-prepend {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: -1px;
+  border: 1px solid #000000;
+  height: 60px;
+  padding: 0 15px;
+  margin-bottom: 25px;
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-flex .form-prepend span {
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-flex .register-form__input {
+  width: 346px;
+  height: 60px;
+  margin-bottom: 25px;
+  padding: 25px 20px;
+  outline: none;
+  border: 1px solid #4A4A4A;
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-label {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 14px;
+  width: 70%;
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-label .form-label__input {
+  opacity: 0;
+  cursor: pointer;
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-label .form-label__input:checked ~ .form-label__checkmark-checkbox {
+  background-color: #4A4A4A;
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-label .form-label__input:checked ~ .form-label__checkmark-checkbox:after {
+  display: block;
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-label .form-label__checkmark-checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-label .form-label__checkmark-checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-label .form-label__checkmark-checkbox:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.register-container .register-container-center .register-container-center-form .register-form .form-label:hover input ~ .form-label__checkmark-checkbox {
+  background-color: #ccc;
+}
+.register-container .register-container-center .register-container-center-form .verification-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register-container .register-container-center .register-container-center-form .verification-form .verification-form__sqr {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #4A4A4A;
+  padding: 25px 20px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  outline: none;
+}
+.register-container .register-container-center .register-container-center-form .register-container-center-form__text {
+  width: 400px;
+  text-align: center;
+  margin-left: 170px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.register-container .register-container-center .register-container-center-form .register-container-center-form__text span {
+  font-weight: 700;
+}
+.register-container .register-container-center .register-container-center-form .register-container-center-form__text--muted {
+  display: flex;
+  justify-content: center;
+  color: #8D8D8D;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+.register-container .register-container-center .register-container-center-form .register-container-center-form-resend {
+  width: 400px;
+  margin-left: 170px;
+  margin-top: 25px;
+}
+.register-container .register-container-center .register-container-center-form .register-container-center-form-resend .cancel-resend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.register-container .register-container-center .register-container-center-form .register-container-center-form-resend .cancel-resend .cancel-resend__text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  text-decoration: underline;
 }
