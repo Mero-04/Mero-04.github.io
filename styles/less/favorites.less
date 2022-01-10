@@ -1,0 +1,125 @@
+.favorites-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+
+        & img{
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        & div{
+            font-weight: 700;
+            font-size: 24px;
+        }
+}
+
+.favorites-container{
+    display: flex;
+    margin-top: 15px;
+
+    & .favorites-product{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        & .favorites-card {
+            width: 230px;
+            position: relative;
+            margin-bottom: 30px;
+
+            & .favorites-card__img{
+                width: 100%;
+                height: auto;
+            }
+
+            & .favorites-card-body {
+                padding: 5px;
+
+                & .favorites-card-body__header {
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-bottom: 5px;
+                    padding: 0px 10px;
+                    text-align: center;
+
+                        & span{
+                            font-weight: 700;
+                        }
+                }
+
+                & .favorites-card-price {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                   
+
+                    & .favorites-card-price__new {
+                        font-size: 14px;
+                        font-weight: 700;
+                        margin-left: 5px;
+                    }
+
+                    & .point {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 5px 0px;
+
+                        & .point__stars {
+                            width: 60px;
+                            height: auto;
+                        }
+                        & .point__star-percent {
+                            font-size: 14px;
+                            font-weight: 700;
+                            color: #EEA734;
+                            padding: 0 5px;
+                        }
+                        
+                        & .point__star-number {
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: black;
+                        }
+                    }
+                }
+
+                & .favorites-card-footer{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 10px;
+
+                    & .size-select{
+                        font-size: 10px;
+                        font-weight: 400;
+                        margin-right: 5px;
+
+                        & .size-select__select{
+                            outline: none;
+                            border: 1px solid #c4c4c4;
+                            padding: 4px 10px;
+                            font-size: 10px;
+                            font-weight: 400;
+                            color: black;
+                            border-radius: 2px;
+                        }
+                    }
+
+                    & .favorites-card-footer__add{
+                        border: 1px solid black;
+                        padding: 4px 10px;
+                        font-size: 10px;
+                        font-weight: 500;
+                        border-radius: 2px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
